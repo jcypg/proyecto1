@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+/*top*/
+#Producto .container
+ {
+    display: flex;
+    justify-content: center;
+}
+
+#Top .top {
+    display: flex;
+    justify-content: center;
+}
+
+  .image-container {
+    width: 100%;
+    height: 400px; /* adjust as needed to crop the image */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+/*first product*/
+
+#Producto .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    ;
+}
+
+#Producto img{
+    width: 930px;
+    height: 400px;
+}
+
+#Producto .content {
+    background-color: rgb(102, 102, 216);
+    width: 180px;
+}
+
+#Producto .text {
+    padding-block: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    /*#Producto .card-container{
+    display: block;
+    width: 350px;*/
+
+    #Producto img {
+        width: 350px;
+        height: 250px;
+    }
+    #Producto .content {
+        width: 350px;
+    }
+}
+
+/*starting of section 2*/
+#columna1 .card-container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#columna1 .card {
+    width: 540px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+#columna1 .card-content {
+    background-color: rgb(102, 102, 216);
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #columna1 .card {
+        width:350px;
+    }
+}
+
+/*starting of section3*/
+#columna2 .card-container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#columna2 .card {
+    width: 330px;
+    margin: 30px;
+}
+
+#columna2 .card-content {
+    background-color: rgb(102, 102, 216);
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+#Categorias .container {
+   display:flex;
+   column-gap: 40px;
+   text-align: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
+
+#Categorias img {
+    height: 270px;
+    width: 345px;
+    display: flex;
+}
+
+#Categorias img:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px){
+    #Categorias img {
+       flex-wrap:wrap; 
+
+    }
+}
+/*end*/
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    line-height: 1.5;
+}
+footer a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.ft-title {
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+}
+
+.end {
+   display: flex;
+   text-align: center;
+   column-gap: 20px;
+   justify-content: space-between;
+   padding-bottom: 4rem;
+   
+}
+
+@media screen and (max-width: 768px){
+    .container .end {
+    flex-wrap: wrap;
+}
+}
+
+.green {
+    background-color: rgb(123, 228, 123);
+}
+
+button:hover{
+    background-color: blue;
+}
+
+h3 {
+    font-family: 'playfair'; /* Specify the font family */
+    font-size: 25px; /* Set the size of the font */
+    font-weight: bold; /* Make the title bold */
+    color: #000000; /* Set the color of the title */
+  }
+  .navbar {
+    display: flex; /* Set the container as a flex container */
+    justify-content: space-between; /* Distribute items horizontally */
+    align-items: center; /* Vertically center items */
+    background-color: #f0f0f0; /* Set a background color for the navbar */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Make the list items flex items */
+}
+
+.nav-links li {
+    margin-right: 180px; /* Add spacing between navigation links */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Center all columns */
+table td {
+    text-align: center;
+}
+
+.top li {
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {text-align: center;}
+p {text-align: center;}
+div {text-align: center;}
+
